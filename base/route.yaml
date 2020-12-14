@@ -1,0 +1,14 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: exceptions
+  namespace: exceptions
+  labels:
+    app: exceptions
+spec:
+  path: /
+  to:
+    kind: Service
+    name: exceptions
+  port:
+    targetPort: 80
