@@ -17,4 +17,4 @@ spec:
         - name: hello-openshift
           image: image-registry.openshift-image-registry.svc:5000/exceptions/api:8
           ports:
-            - containerPort: 8080
+            - containerPort: 3000

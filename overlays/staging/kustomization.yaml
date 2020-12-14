@@ -1,6 +1,6 @@
 resources:
 - ../../base
 patchesStrategicMerge:
-- config.yaml
+- cm.yaml
 - resource_limits.yaml
 namePrefix: staging-
