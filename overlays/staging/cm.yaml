@@ -5,7 +5,7 @@ metadata:
 data:
   java.json: |
     [
-      { "id": 1 ,"name": "ArithmeticException", "count": 10 },
+      { "id": 1 ,"name": "ArithmeticException", "count": 11 },
       { "id": 2 ,"name": "ArrayIndexOutOfBoundsException", "count": 23 },
       { "id": 3 ,"name": "ClassNotFoundException", "count": 78 },
       { "id": 4 ,"name": "FileNotFoundException", "count": 19 },
