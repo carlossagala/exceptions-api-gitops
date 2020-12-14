@@ -3,4 +3,3 @@ resources:
 patchesStrategicMerge:
 - cm.yaml
 - resource_limits.yaml
-namePrefix: prod-green-

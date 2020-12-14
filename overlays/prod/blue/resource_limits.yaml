@@ -2,12 +2,19 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: exceptions
+  namespace: exceptions
 spec:
-  replicas: 1
+  selector:
+    matchLabels:
+      app: hello-openshift
+  replicas: 3
   template:
+    metadata:
+      labels:
+        app: hello-openshift
     spec:
       containers:
-        - name: sbdemo
+        - name: hello-openshift
           resources:
             limits:
               cpu: 1
