@@ -3,3 +3,8 @@ resources:
 patchesStrategicMerge:
 - cm.yaml
 - resource_limits.yaml
+
+images:
+- name: hello-openshift
+  newName: image-registry.openshift-image-registry.svc:5000/exceptions-a/api
+  image: #changeme
