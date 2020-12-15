@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
         - name: hello-openshift
-          image: image-registry.openshift-image-registry.svc:5000/exceptions-a/test-a:2
+          image: image-registry.openshift-image-registry.svc:5000/exceptions-a/test-a:5
           ports:
             - containerPort: 8080
